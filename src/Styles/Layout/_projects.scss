@@ -1,0 +1,55 @@
+.projects {
+  margin-top: 5rem;
+  &-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.35rem;
+  }
+  &-description {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-inline: auto;
+  }
+
+  &-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  width: max(18rem, 50vw);
+
+  &-title {
+    margin: 0.5rem 0;
+  }
+  &-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+  }
+  &-btn {
+    color: #fceefd;
+    border: none;
+    font-family: inherit;
+    border-radius: 1.9rem;
+    cursor: pointer;
+  }
+}
+
+.live-site {
+  background-color: #502ae8;
+  padding: 0.35rem 1.25rem;
+}
+.code {
+  background-color: #3b3a4f;
+  padding: 0.35rem 1.67rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}

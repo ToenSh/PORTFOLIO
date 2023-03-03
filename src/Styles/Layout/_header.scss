@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+}
+
+.ham-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
+  cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+  height: 2px;
+  background-color: #8d8dda;
+}
+
+.line1 {
+  width: 1.7rem;
+}
+.line2 {
+  width: 1.35rem;
+}
+.line3 {
+  width: 1rem;
+}
+
+.desktop-nav {
+  list-style: none;
+  display: none;
+  gap: 6rem;
+
+  &__item a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fceefd;
+  }
+  &__item a:hover {
+    color: #8d8dda;
+  }
+}

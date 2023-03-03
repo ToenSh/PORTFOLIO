@@ -1,0 +1,19 @@
+.contact {
+  margin: 10rem auto 5rem auto;
+  text-align: center;
+
+  &-description {
+    margin: 2rem auto 3rem auto;
+  }
+  &-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1.05rem;
+    color: #8d8dda;
+    background: none;
+    border: 2px solid #8d8dda;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+}
