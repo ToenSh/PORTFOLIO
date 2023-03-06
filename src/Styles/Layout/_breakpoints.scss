@@ -37,23 +37,25 @@
     align-self: flex-end;
     font-size: 2.5rem;
   }
+  .hero-description,
+  .hero-tech,
+  .projects-description,
+  .contact-description {
+    font-size: 1.15rem;
+  }
   .hero-description {
     text-align: left;
     margin: 0;
-    font-size: 1.15rem;
   }
   .hero-tech {
     align-self: flex-start;
-    font-size: 1.15rem;
   }
   .projects {
     margin-top: 23rem;
   }
-  .projects-header {
+  .projects-header,
+  .contact-header {
     font-size: 1.75rem;
-  }
-  .projects-description {
-    font-size: 1.15rem;
   }
   .projects-container {
     flex-direction: row;
@@ -66,11 +68,7 @@
   .contact {
     margin: 17.5rem auto 12.5rem auto;
   }
-  .contact-header {
-    font-size: 1.75rem;
-  }
   .contact-description {
-    font-size: 1.15rem;
     max-width: 50%;
   }
   .scroll {
