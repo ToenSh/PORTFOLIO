@@ -10,6 +10,11 @@ import "aos/dist/aos.css";
 import "./style.css";
 
 function App() {
+  const [mobileMenu, setMobileMenu] = useState(false);
+  function handleMobileMenu() {
+    setMobileMenu((prevMobileMenu) => !prevMobileMenu);
+  }
+
   useEffect(() => {
     AOS.init({ duration: 1500, mirror: false, once: true });
   }, []);
@@ -23,7 +28,6 @@ function App() {
         img={project.image}
         liveSite={project.liveSite}
         code={project.code}
-        delay={project.delay}
       />
     );
   });
@@ -31,7 +35,10 @@ function App() {
   return (
     <>
       <div className="container">
-        <Header />
+        <Header
+          mobileMenu={mobileMenu}
+          handleMobileMenu={() => handleMobileMenu()}
+        />
         <main>
           <Hero />
           <section className="projects" id="projects">
@@ -51,7 +58,13 @@ function App() {
         </main>
         <Footer />
       </div>
-      <MobileMenu />
+      {mobileMenu && (
+        <MobileMenu
+          handleMobileMenu={() => handleMobileMenu()}
+          mobileMenu={mobileMenu}
+        />
+      )}
+      {mobileMenu && <div className="overlay"></div>}
     </>
   );
 }

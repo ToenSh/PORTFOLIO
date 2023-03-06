@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-scroll";
 import logo from "../assets/T.png";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <header className="header" data-aos="fade-up">
       <img src={logo} alt="logo" className="logo" />
       <nav>
-        <div className="ham-icon">
+        <div className="ham-icon" onClick={props.handleMobileMenu}>
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
@@ -35,7 +35,7 @@ export default function Header() {
               spy={true}
               smooth={true}
               offset={-50}
-              duration={1200}
+              duration={1500}
             >
               Contact
             </Link>
