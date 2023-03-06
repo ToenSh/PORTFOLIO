@@ -4,7 +4,11 @@ import { motion } from "framer-motion";
 
 export default function Project(props) {
   return (
-    <article data-aos="fade-up" className="project">
+    <article
+      data-aos="fade-up"
+      data-aos-delay={`${props.delay}`}
+      className="project"
+    >
       <img src={props.img} alt="screenshot" className="project-img" />
       <span className="project-title">{props.name}</span>
       <div className="project-buttons">

@@ -4,20 +4,23 @@
     "name": "Countries Data App",
     "image": "/ss.png",
     "liveSite": "https://gorgeous-sprinkles-94dc8c.netlify.app/",
-    "code": "https://github.com/spd237/Countries-Info-App"
+    "code": "https://github.com/spd237/Countries-Info-App",
+    "delay": "500"
   },
   {
     "id": "Project-2",
     "name": "Todo App",
     "image": "/ss2.png",
     "liveSite": "https://spd237.github.io/To-Do-App/",
-    "code": "https://github.com/spd237/To-Do-App"
+    "code": "https://github.com/spd237/To-Do-App",
+    "delay": "1000"
   },
   {
     "id": "Project-3",
     "name": "E-Commerce Product Page",
     "image": "/ss3.png",
     "liveSite": "https://spd237.github.io/E-Commerce-Product-Page/",
-    "code": "https://github.com/spd237/E-Commerce-Product-Page"
+    "code": "https://github.com/spd237/E-Commerce-Product-Page",
+    "delay": "1500"
   }
 ]

@@ -23,6 +23,7 @@ function App() {
         img={project.image}
         liveSite={project.liveSite}
         code={project.code}
+        delay={project.delay}
       />
     );
   });
@@ -37,7 +38,11 @@ function App() {
             <h2 className="projects-header" data-aos="fade">
               My Projects
             </h2>
-            <p className="projects-description" data-aos="fade">
+            <p
+              className="projects-description"
+              data-aos="fade"
+              data-aos-delay="250"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed
               malesuada urna.
             </p>
