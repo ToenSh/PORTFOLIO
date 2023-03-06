@@ -15,5 +15,10 @@
     border-radius: 5px;
     padding: 1rem 2rem;
     cursor: pointer;
+    position: relative;
+  }
+
+  &-btn:hover {
+    background-color: rgba(141, 141, 218, 0.1);
   }
 }

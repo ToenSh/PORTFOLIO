@@ -1,5 +1,5 @@
 .projects {
-  margin-top: 5rem;
+  margin-top: 12rem;
   &-header {
     text-align: center;
     margin-bottom: 1.5rem;
@@ -34,17 +34,24 @@
     margin-top: 0.5rem;
   }
   &-btn {
-    color: #fceefd;
     border: none;
     font-family: inherit;
     border-radius: 1.9rem;
     cursor: pointer;
+    color: #fceefd;
+    transition: 0.3s;
   }
 }
-
+a {
+  text-decoration: none;
+}
 .live-site {
   background-color: #502ae8;
   padding: 0.35rem 1.25rem;
+}
+.live-site:hover {
+  box-shadow: 4px 4px #7c66d4;
+  transition: 0.3s;
 }
 .code {
   background-color: #3b3a4f;
@@ -52,4 +59,8 @@
   display: flex;
   align-items: center;
   gap: 0.35rem;
+}
+.code:hover {
+  box-shadow: 4px 4px #676681;
+  transition: 0.3s;
 }
