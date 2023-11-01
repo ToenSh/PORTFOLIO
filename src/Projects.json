@@ -9,18 +9,18 @@
   },
   {
     "id": "Project-2",
-    "name": "Todo App",
+    "name": "Dictionary App",
     "image": "/ss2.png",
-    "liveSite": "https://spd237.github.io/To-Do-App/",
-    "code": "https://github.com/spd237/To-Do-App",
+    "liveSite": "https://main--silly-rabanadas-cc239a.netlify.app/",
+    "code": "https://github.com/spd237/Dictionary-App",
     "delay": "1000"
   },
   {
     "id": "Project-3",
-    "name": "E-Commerce Product Page",
+    "name": "Password Generator",
     "image": "/ss3.png",
-    "liveSite": "https://spd237.github.io/E-Commerce-Product-Page/",
-    "code": "https://github.com/spd237/E-Commerce-Product-Page",
+    "liveSite": "https://unique-fudge-ff7f6f.netlify.app/",
+    "code": "https://github.com/spd237/Password-Generator",
     "delay": "1500"
   }
 ]

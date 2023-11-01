@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function Footer() {
   return (
@@ -7,12 +7,14 @@ export default function Footer() {
         Contact Me
       </h2>
       <p className="contact-description" data-aos="fade" data-aos-delay="150">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius sem
-        ac felis aliquam viverra. Donec ultrices in lectus sed.
+        Ready to contribute to your team and tackle exciting web development
+        projects. Let's connect and discuss opportunities.
       </p>
-      <button className="contact-btn" data-aos="fade" data-aos-delay="200">
-        Contact Button
-      </button>
+      <a href="mailto:tonishehaj12@gmail.com">
+        <button className="contact-btn" data-aos="fade" data-aos-delay="200">
+          Send me an email
+        </button>
+      </a>
     </footer>
   );
 }

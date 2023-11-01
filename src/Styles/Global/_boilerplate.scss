@@ -8,23 +8,8 @@
 
 body {
   background-color: #161037;
-  font-family: "Roboto Mono", monospace;
+  font-family: 'Roboto Mono', monospace;
   color: #fceefd;
-  background-image: url("./assets/bgcircle2.png");
-  background-repeat: no-repeat;
-  animation: slideIn 4s ease-in-out;
-  @media (min-width: 950px) {
-    background-image: url("./assets/bgcircle.png");
-  }
-}
-
-@keyframes slideIn {
-  from {
-    background-position: -100% 0%;
-  }
-  to {
-    background-position: 0% 0%;
-  }
 }
 
 .container {

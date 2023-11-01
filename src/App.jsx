@@ -1,13 +1,13 @@
-import { useEffect, useState } from "react";
-import Header from "./Components/Header";
-import Hero from "./Components/Hero";
-import Project from "./Components/Project";
-import MobileMenu from "./Components/MobileMenu";
-import Footer from "./Components/Footer";
-import data from "./Projects.json";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import "./style.css";
+import { useEffect, useState } from 'react';
+import Header from './Components/Header';
+import Hero from './Components/Hero';
+import Project from './Components/Project';
+import MobileMenu from './Components/MobileMenu';
+import Footer from './Components/Footer';
+import data from './Projects.json';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import './style.css';
 
 function App() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -50,8 +50,7 @@ function App() {
               data-aos="fade"
               data-aos-delay="250"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed
-              malesuada urna.
+              These are some of the projects I've built recently.
             </p>
             <div className="projects-container">{projectElements}</div>
           </section>

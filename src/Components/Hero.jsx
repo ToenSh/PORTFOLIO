@@ -1,18 +1,21 @@
-import React from "react";
-import { Link } from "react-scroll";
-import astronaut from "../assets/astronaut 1.png";
-import astronaut2 from "../assets/astronaut2.png";
+import React from 'react';
+import { Link } from 'react-scroll';
+import astronaut from '../assets/astronaut 1.png';
+import astronaut2 from '../assets/astronaut2.png';
 
 export default function Hero() {
   return (
     <section className="hero">
       <h1 className="hero-header" data-aos="fade-right" data-aos-delay="1500">
-        Hi, I'm Joe Schmoe
+        Hi, I'm Toen Shehaj
       </h1>
       <p className="hero-description" data-aos="fade" data-aos-delay="2000">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis illum
-        soluta omnis, voluptates sint neque eveniet nisi sequi. Officiis illum
-        soluta omnis, voluptates sint neque eveniet nisi sequi.
+        My journey into the world of coding began with a curiosity to create and
+        design for the web. I am committed to mastering the latest web
+        technologies and crafting exceptional online experiences. I primarly
+        focus on the frontend but recently I've been trying to expand my
+        knowledge and skills by diving more into backend technologies such as
+        NodeJS/Express, and Prisma.
       </p>
       <div className="hero-tech">
         <span
@@ -24,8 +27,8 @@ export default function Hero() {
         </span>
         <ul className="hero-tech__list" data-aos="fade" data-aos-delay="2500">
           <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
+          <li>CSS(Tailwind)</li>
+          <li>TypeScript</li>
         </ul>
         <ul className="hero-tech__list" data-aos="fade" data-aos-delay="2500">
           <li>ReactJS</li>
