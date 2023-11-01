@@ -12,7 +12,7 @@ export default function Hero() {
       <p className="hero-description" data-aos="fade" data-aos-delay="2000">
         My journey into the world of coding began with a curiosity to create and
         design for the web. I am committed to mastering the latest web
-        technologies and crafting exceptional online experiences. I primarly
+        technologies and crafting exceptional online experiences. I primarily
         focus on the frontend but recently I've been trying to expand my
         knowledge and skills by diving more into backend technologies such as
         NodeJS/Express, and Prisma.
