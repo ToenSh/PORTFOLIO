@@ -11,7 +11,7 @@
     "id": "Project-2",
     "name": "Dictionary App",
     "image": "/ss2.png",
-    "liveSite": "https://main--silly-rabanadas-cc239a.netlify.app/",
+    "liveSite": "https://dictionary-app-fem.netlify.app",
     "code": "https://github.com/spd237/Dictionary-App",
     "delay": "1000"
   },
@@ -19,7 +19,7 @@
     "id": "Project-3",
     "name": "Password Generator",
     "image": "/ss3.png",
-    "liveSite": "https://unique-fudge-ff7f6f.netlify.app/",
+    "liveSite": "https://fem-password-generator-app.netlify.app",
     "code": "https://github.com/spd237/Password-Generator",
     "delay": "1500"
   }
